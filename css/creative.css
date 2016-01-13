@@ -178,9 +178,12 @@ header {
     min-height: auto;
     text-align: center;
     color: #fff;
-    background-image: url(../img/federer-tenis.jpg);
+    background:     linear-gradient(
+      rgba(0, 0, 0, 0.25), 
+      rgba(0, 0, 0, 0.25)
+    ), url(../img/tenis-oyna.jpg);
     background-position: center;
-    -webkit-background-size: cover;
+    -webkit-background-size: cont;
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
